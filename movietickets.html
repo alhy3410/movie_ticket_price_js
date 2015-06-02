@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Movie Tickets</title>
+</head>
+<body>
+  <div class="container">
+    <form id="ticket-details">
+      <select id="selected-movie" name="movie-names" form="movie-names">
+        <option value="Mad_Max">Mad Max</option>
+        <option value="Avengers">Avengers</option>
+        <option value="Dumbo">Dumbo</option>
+        <option value="Peter_Pan">Peter Pan</option>
+      </select>
+      <br>
+      <select id="selected-age" name="age" form="age">
+        <option value="Under18">Child</option>
+        <option value="Adult">Adult</option>
+        <option value="Senior">Seniors</option>
+      </select>
+      <br>
+      <select id="selected-time" name="time" form="time">
+        <option value="morning">Morning</option>
+        <option value="evening">Evening</option>
+        <option value="night">Night</option>
+      </select>
+      <br>
+      <button type="submit" class="btn">Find Ticket Price</button>
+    </form>
+  <div id='show-price'>
+
+  </div>
+
+  </div>
+</body>
+</html>

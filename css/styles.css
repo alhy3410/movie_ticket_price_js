@@ -1,0 +1,16 @@
+body{
+  background-image: url("../images/movie-theater.jpg");
+  background-color:black;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top:50%;
+
+}
+
+.container{
+  background-color:#801A00;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
